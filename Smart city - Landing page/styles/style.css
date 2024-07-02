@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.hero {
+    padding: 60px 0;
+    background: url('C:\\Users\\Admin\\Desktop\\smart-city\\images\\hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+#features .card img, 
+#services .card img, 
+#about img, 
+#price-prediction img, 
+#chatbot img {
+    height: 200px;
+    object-fit: cover;
+}
+
+#features .card-title,
+#services .card-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#about, #services, #price-prediction, #chatbot {
+    margin-top: 80px;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+}
